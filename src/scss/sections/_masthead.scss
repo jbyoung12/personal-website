@@ -30,8 +30,7 @@ header.masthead {
     // Set color for all headings
 
     .page-heading,
-    .post-heading,
-    .site-heading {
+    .post-heading {
         color: $white;
     }
 
@@ -40,6 +39,10 @@ header.masthead {
     .page-heading,
     .site-heading {
         text-align: center;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        padding: 1rem 0px;
 
         h1 {
             font-size: 3rem;
@@ -54,6 +57,7 @@ header.masthead {
             font-family: $headings-font-family;
         }
     }
+
 
     // Styling specific to post headings
 
